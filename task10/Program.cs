@@ -1,19 +1,5 @@
-﻿//int number=Console.WriteLine (100, 1000);
-/*Console.WriteLine ("ввести трехзначное число");
-int a =Convert.ToInt32(Console.ReadLine());
-
-
-Console.WriteLine($"Вторая цифра трехзначного числа ='{a}'");
-
-
-
-/*Console.WriteLine(number);
-
-if(number > 99)
-{
-    Console.WriteLine((number / 100) % 10);
-}
-*/
+﻿// Напишите программу, которая принимает на вход трёхзначное число 
+//и на выходе показывает вторую цифру этого числа.
 Console.WriteLine("Введите трехзначное число");
 
 string input=Console.ReadLine();
