@@ -5,20 +5,22 @@ Console.WriteLine("Введите день недели");
 int day = Convert.ToInt32(Console.ReadLine());
 switch (day) { 
     case 1: Console.WriteLine("Понедельник");
-break;
-    case 2:Console.WriteLine("Вторник");
-break;
+            break;
+    case 2: Console.WriteLine("Вторник");
+            break;
     case 3: Console.WriteLine("Среда");
-break;
+            break;
     case 4: Console.WriteLine("Четверг");
-break;
+            break;
     case 5: Console.WriteLine("Пятница");
-break;
-    case 6: Console.WriteLine("Суббота-выходной");
-break;
-    case 7: Console.WriteLine("Воскресенье-выходной");
-break; 
+            break;
+    case 6: Console.WriteLine("Суббота");
+            Console.WriteLine("выходной");
+            break;
+    case 7: Console.WriteLine("Воскресенье");
+            Console.WriteLine("выходной");
+            break; 
 default: 
-    Console.WriteLine("No day");
-break;
+    Console.WriteLine("Нет такого дня недели");
+    break;
 }
